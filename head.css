@@ -1,0 +1,294 @@
+.header {
+  overflow: hidden;
+  background-color:lightgreen;
+  height:120px;
+  padding-left:0;
+  margin: auto;
+}
+
+.header a {
+  float:left;
+  color:white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 4px;
+  line-height: 25px;
+}
+
+.header a.logo {
+  font-size: 90px;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 40px;
+  padding-left:200px;
+  color: blue;
+  position:relative;
+  font-family: serif;
+}
+
+.header a.logo:hover {
+  color: white;
+}
+
+.header:hover {
+  background-color: black;
+}
+
+.header a.active {
+  float:right;
+  background-color:yellow;
+  color:red;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.header-right {
+  float: right;
+  padding: 20px;
+  display: block;
+}
+
+.header a.beta {
+  float: center;
+  background-color: yellow;
+  color: red;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  background:none;
+}
+
+.jungd {
+  height: 100;
+  width: 100;
+  border-radius:50%;
+  position: absolute;
+  left: 20px;
+  padding-bottom:none;
+}
+
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  box-sizing: border-box;
+  transform: translate(-50%, -30%);
+  padding: 70px 30px;
+  margin: 0;
+  margin-right: 0;
+}
+
+.avatar {
+  width: 100;
+  height: 100;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input [type="text"], input[type="password"]
+{
+  border: thin;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline:show;
+  height: 40px;
+  color: #fff;
+}
+
+.loginbox input[type="submit"]
+{
+  border:thin;
+  outline: show;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+.loginbox a{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: darkgrey;
+  text-align: right;
+}
+.loginbox a:hover
+{
+  cursor: pointer;
+  color: #fb2525;
+}
+
+.captain {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.captain .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.5);
+  width: 35%;
+  color: white;
+  display: block;
+  font-family: serif;
+  font-weight: bold;
+  padding: auto;
+}
+.alpha {
+  background-color:none;
+  color:red;
+  font-size: 20px;
+  border: none;
+}
+.header-right {
+  position:relative;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  float:right;
+}
+.header-right button{
+  margin: 0;
+  width: 150px;
+  height: 40px;
+  font-family: serif;
+  padding: 0;
+  border: 1px solid white;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  background-color:#f1f1f1;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown a {
+  color: white;
+  padding:12px 16px;
+  text-decoration: none;
+  display:none;
+  width: 150px;
+  text-align: center;
+}
+
+.dropdown a:hover {
+  background-color:Green;
+  display: block;
+}
+.header-right:hover .dropdown{
+  display:inline-block;
+  width: 150px;
+}
+.header-right .alpha:hover {
+  background-color:yellow;
+}
+.beta {
+  background-color: none;
+  color: red;
+  font-size: 15px;
+  border: none;
+}
+.dragdown {
+  display: none;
+  position: absolute;
+  background-color:#ddd;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dragdown a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.dragdown a:hover {
+  background-color:green;
+  display:none;
+}
+.header-right .dragdown:hover {
+  display:inline-block;
+  width: 150px;
+}
+.header-right .beta:hover {
+  background-color:yellow;
+}
+
+.gamma {
+  background-color: none;
+  color:red;
+  font-size: 20px;
+  border: none;
+}
+.dinkirk {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dinkirk a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+  text-align: center;
+}
+.dinkirk a:hover {
+  background-color: green;
+  display:block;
+}
+.header-right .gamma:hover > .dinkirk a {
+  display:block;
+  width: 150px;
+}
+.header-right .gamma:hover {
+  background-color:yellow;
+}
